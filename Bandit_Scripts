@@ -1,0 +1,13 @@
+#Bandit 0 ssh
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+#Bandit 0->1
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+cd
+ls
+cat readme
+
+#Bandit 1-> 2
+cd
+ls -a 
+cat ./- 
